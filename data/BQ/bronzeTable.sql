@@ -10,6 +10,7 @@ OPTIONS (
   uris = ['gs://retailer-datalake-project-1172025/landing/retailer-db/orders/*.json']
 );
 
+
 CREATE EXTERNAL TABLE IF NOT EXISTS `expanded-league-477308-m5.bronze_dataset.customers`
 (
     customer_id INT64,
